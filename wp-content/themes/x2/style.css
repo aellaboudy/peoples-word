@@ -1,0 +1,55 @@
+/*
+Theme Name: x2
+Theme URI: http://themekraft.com/store/x2-free-wordpress-theme/
+Description: Create a professional WordPress, BuddyPress or WooCommerce site within minutes. Perfect for your next blog, shop, magazine, social network or portfolio site. 3 customizable sliders. Flux Slider with 3D effects. 3-columns widget homepage. Advanced theme options help you to customize every detail quickly. Plus tons of widget areas and 2 custom WP 3.0 header menus. 2 predefined color schemes (light, dark) with clean and browsersafe CSS design to start from. Handy premium extensions and professional support by the theme authors available at http://themekraft.com. Thanks for using x2 - Happy Creating!
+Tags: translation-ready, buddypress, dark, light, white, black, brown, left-sidebar, right-sidebar, two-columns, three-columns, fixed-layout, fluid-layout, custom-header, custom-menu, custom-colors, custom-background, theme-options, threaded-comments, sticky-post, full-width-template, featured-images, photoblogging
+Author: svenl77, konrads, slaFFik
+Author URI: http://themekraft.com/
+Version: 1.7.5
+License: GNU General Public License v3.0 / License URI: http://www.gnu.org/licenses/gpl-3.0.html
+
+x2 WordPress Theme, Copyright (C) 2013-2014 Sven Lehnert & Konrad Sroka
+x2 WordPress Theme is licensed under the GPL.
+
+*/
+
+/* Reset browser defaults */
+@import url( '_inc/css/reset.css' );
+
+.aligncenter {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+
+div.post .wp-caption {
+    text-align: center;
+    padding-top: 4px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    border-radius: 3px;
+    margin-bottom:12px;
+    max-width: 99.5%;
+}
+
+div.post embed {
+	max-width: 100%;
+}
+
+div.post dd.wp-caption p.wp-caption-text,
+div.post .wp-caption p.wp-caption-text {
+    font-size: 0.9em;
+    line-height: 17px;
+    padding: 0 4px 5px 0;
+    margin: 0;
+}

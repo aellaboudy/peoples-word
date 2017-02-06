@@ -1,0 +1,10 @@
+/*
+Theme Name:     Peoples-Word-Child
+Description:    Child theme for all modifications.
+Author:         aellaboudy
+Template:       make
+
+(optional values you can add: Theme URI, Author URI, Version)
+*/
+
+@import url("../make/style.css");

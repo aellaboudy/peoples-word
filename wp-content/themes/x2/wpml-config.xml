@@ -1,0 +1,95 @@
+<wpml-config>
+
+    <custom-fields>
+        <custom-field action="translate">_x2_page_enable_featured_posts</custom-field>
+        <custom-field action="translate">_x2_page_enable_slideshow</custom-field>
+        <custom-field action="translate">_x2_page_featured_posts_show_pagination</custom-field>
+        <custom-field action="translate">_x2_page_featured_posts_style</custom-field>
+        <custom-field action="translate">_x2_page_slideshow_autoplay</custom-field>
+        <custom-field action="translate">_x2_page_slideshow_caption</custom-field>
+        <custom-field action="translate">_x2_page_slideshow_controls</custom-field>
+        <custom-field action="translate">_x2_page_slideshow_effect</custom-field>
+        <custom-field action="translate">_x2_page_slideshow_pagination</custom-field>
+        <custom-field action="translate">_x2_page_slideshow_shadow</custom-field>
+        <custom-field action="translate">_x2_page_slideshow_style</custom-field>
+        <custom-field action="ignore">_x2_page_featured_posts_category</custom-field>
+        <custom-field action="ignore">_x2_page_featured_posts_posts_per_page</custom-field>
+        <custom-field action="ignore">_x2_page_featured_posts_post_type</custom-field>
+        <custom-field action="ignore">_x2_page_slideshow_post_type</custom-field>
+        <custom-field action="ignore">_x2_page_slideshow_show_page</custom-field>
+    </custom-fields>
+
+    <admin-texts>
+        <key name="x2_theme_options">
+            <key name="cap_slideshow_effect" />
+            <key name="cap_style_css" />
+            <key name="cap_sidebar_position" />
+            <key name="cap_wp_custom_background" />
+            <key name="cap_bg_body_img_fixed" />
+            <key name="cap_bg_body_img_pos" />
+            <key name="cap_bg_body_img_repeat" />
+            <key name="cap_container_corner_radius" />
+            <key name="cap_body_badge_show" />
+            <key name="cap_avatar_circles" />
+            <key name="cap_admin_bar_position" />
+            <key name="cap_errorpage_style" />
+            <key name="cap_errorpage_title" />
+            <key name="cap_errorpage_search_msg" />
+            <key name="cap_errorpage_search_show" />
+            <key name="cap_homepage_style" />
+            <key name="cap_widget_homepage_widgetarea_style" />
+            <key name="cap_posts_lists_style" />
+            <key name="cap_posts_lists_hide_avatar" />
+            <key name="cap_posts_lists_hide_date" />
+            <key name="cap_posts_lists_hide_pagenavi" />
+            <key name="cap_category_pagetitle" />
+            <key name="cap_single_post_hide_avatar" />
+            <key name="cap_single_post_hide_date" />
+            <key name="cap_single_post_hide_tags" />
+            <key name="cap_single_post_hide_comment_info" />
+            <key name="cap_excerpt_on" />
+            <key name="cap_add_custom_image_header" />
+            <key name="cap_header_text" />
+            <key name="cap_header_title_position" />
+            <key name="cap_header_width" />
+            <key name="cap_header_img_x" />
+            <key name="cap_header_img_y" />
+            <key name="cap_menu_top_stay_on_top" />
+            <key name="cap_menu_top_x" />
+            <key name="cap_bg_menu_top_style" />
+            <key name="cap_menu_top_corner_radius" />
+            <key name="cap_menu_waypoints" />
+            <key name="cap_menu_x" />
+            <key name="cap_bg_menu_style" />
+            <key name="cap_menu_corner_radius" />
+            <key name="cap_bg_container_nolines" />
+            <key name="cap_title_font_style" />
+            <key name="cap_title_weight" />
+            <key name="cap_subtitle_weight" />
+            <key name="cap_link_underline" />
+            <key name="cap_link_color_subnav_adapt" />
+            <key name="cap_bg_leftsidebar_img_repeat" />
+            <key name="cap_bg_rightsidebar_img_repeat" />
+            <key name="cap_bg_widgettitle_style" />
+            <key name="cap_bg_widgettitle_img_repeat" />
+            <key name="cap_capitalize_widgets_li" />
+            <key name="cap_capitalize_widgettitles" />
+            <key name="cap_out_of_content_widget" />
+            <key name="cap_footer_width" />
+            <key name="cap_bg_footer_border" />
+            <key name="cap_bg_footer_widget_border" />
+            <key name="cap_disable_credits_footer" />
+            <key name="cap_my_credits_footer" />
+            <key name="cap_enable_x2_slideshow" />
+            <key name="cap_slideshow_show_sticky" />
+            <key name="cap_slideshow_style" />
+            <key name="cap_slideshow_autoplay" />
+            <key name="cap_slideshow_pagination" />
+            <key name="cap_slideshow_caption" />
+            <key name="cap_slideshow_controls" />
+            <key name="cap_slideshow_shadow" />
+        </key>
+    </admin-texts>
+</wpml-config>
+
+

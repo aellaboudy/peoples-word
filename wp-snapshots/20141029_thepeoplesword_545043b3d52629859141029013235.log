@@ -1,0 +1,95 @@
+********************************************************************************
+PACKAGE-LOG: 2014-10-29 01:34:09
+NOTICE: Do NOT post to public sites or forums 
+********************************************************************************
+VERSION:	0.5.8
+WORDPRESS:	4.0
+PHP INFO:	5.3.28 | SAPI: apache2handler
+SERVER:		Apache/2.2.27 (Amazon) 
+PHP TIME LIMIT: (0) no time limit imposed 
+PHP MAX MEMORY: 5000M (128M default) 
+
+********************************************************************************
+DATABASE:
+********************************************************************************
+BUILD MODE:   PHP
+MYSQLDUMP:    Is Supported
+MYSQLTIMEOUT: 5000 
+TABLES: total:28 | filtered:0 | create:28 
+FILTERED: [] 
+wp_bp_activity (1) 
+wp_bp_activity_meta (0) 
+wp_bp_messages_messages (0) 
+wp_bp_messages_notices (0) 
+wp_bp_messages_recipients (0) 
+wp_bp_notifications (0) 
+wp_bp_xprofile_data (1) 
+wp_bp_xprofile_fields (1) 
+wp_bp_xprofile_groups (1) 
+wp_bp_xprofile_meta (0) 
+wp_commentmeta (0) 
+wp_comments (8) 
+wp_commentsvote (0) 
+wp_duplicator_packages (1) 
+wp_links (0) 
+wp_options (227) 
+wp_postmeta (594) 
+wp_posts (305) 
+wp_signups (0) 
+wp_term_relationships (164) 
+wp_term_taxonomy (24) 
+wp_terms (24) 
+wp_usermeta (65) 
+wp_users (4) 
+wp_voteiu_data (30) 
+wp_wpuf_customfields (0) 
+wp_wpuf_subscription (0) 
+wp_wpuf_transaction (0) 
+SQL CREATED: 20141029_thepeoplesword_545043b3d52629859141029013235_database.sql 
+SQL FILE SIZE: 878.78KB 
+SQL RUNTIME: 0.10 sec. 
+
+******************************************************************************** 
+ARCHIVE (ZIP): 
+******************************************************************************** 
+ARCHIVE DIR:  /var/www/html/news 
+ARCHIVE FILE: 20141029_thepeoplesword_545043b3d52629859141029013235_archive.zip 
+FILTERS: *OFF* 
+DIRS:  not set 
+EXTS:  not set 
+---------------------------------------- 
+COMPRESSING 
+SIZE:	83.42MB 
+STATS:	Dirs 626 | Files 4,186 | Links 0 
+SQL ADDED: 20141029_thepeoplesword_545043b3d52629859141029013235_database.sql 
+WARNING: Unable to zip directory: '/var/www/html/news' 
+ZipArchive Object
+(
+    [status] => 0
+    [statusSys] => 0
+    [numFiles] => 4812
+    [filename] => /var/www/html/news/wp-snapshots/tmp/20141029_thepeoplesword_545043b3d52629859141029013235_archive.zip
+    [comment] => 
+)
+ 
+COMPRESSION RESULT: '1' 
+COMPRESSED SIZE: 50.03MB 
+ARCHIVE RUNTIME: 4.90 sec. 
+
+******************************************************************************** 
+INSTALLER: 
+******************************************************************************** 
+INSTALLER FILE: Build Start 
+INSTALLER FILE: Build Finished 
+INSTALLER FILE: Preping for use 
+INSTALLER FILE: Template parsed with new data 
+INSTALLER FILE: Complete [/var/www/html/news/wp-snapshots/tmp/20141029_thepeoplesword_545043b3d52629859141029013235_installer.php] 
+INSTALLER FILE: Added to archive 
+
+********************************************************************************
+RECORD ID:[1]
+FILE SIZE: Archive:50.03MB | SQL:878.78KB | Installer:414.49KB
+TOTAL PROCESS RUNTIME: 6.49 sec.
+DONE PROCESSING => 20141029_thepeoplesword 2014-10-29 01:34:16
+********************************************************************************
+ 
