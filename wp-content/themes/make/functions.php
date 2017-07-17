@@ -556,7 +556,7 @@ add_action( 'customize_controls_print_styles', 'ttfmake_plus_styles', 20 );
 
 
 function wpb_adding_scripts() {
-	wp_register_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key= AIzaSyANw71BkR6L96QDGSbgaMbDrkZqCQhS1iM&libraries=places',false,false,true);
+	wp_register_script('google-maps', 'https://maps.googleapis.com/maps/api/js?key=AIzaSyANw71BkR6L96QDGSbgaMbDrkZqCQhS1iM&libraries=places',false,false,true);
         wp_register_script('google-jsapi','https://www.google.com/jsapi',false,false,true);
 	wp_register_script('geolocate_script',content_url('javascript/geolocate.js'),array( 'jquery', 'google-maps', 'google-jsapi'),false, true);
 	wp_enqueue_script('geolocate_script');
