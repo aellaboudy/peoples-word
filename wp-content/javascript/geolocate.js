@@ -31,6 +31,8 @@ function submitAddressForm(address) {
 
 	addressForm.appendChild(addressText);
 
+	document.body.appendChild(addressForm);
+
 	addressForm.submit();
 }
 
