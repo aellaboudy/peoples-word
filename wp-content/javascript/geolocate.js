@@ -46,18 +46,35 @@ function showPosition(position) {
   var latlng = new google.maps.LatLng(lat, lng);
   geocoder.geocode({'latLng': latlng}, function(results, status) {
     if (status == google.maps.GeocoderStatus.OK) {
-      if (results[1]) {
+      if (results[0]) {
         map.setZoom(11);
         marker = new google.maps.Marker({
             position: latlng,
             map: map
         });
-        infowindow.setContent(results[1].formatted_address);
+	let storableLocation = {};
+	for (var ac = 0; ac < results[0].address_components.length; ac++) {
+        	var component = results[0].address_components[ac];
+                switch(component.types[0]) {
+                	case 'locality':
+                        	storableLocation.city = component.long_name;
+                                break;
+                       	case 'administrative_area_level_1':
+                                storableLocation.state = component.short_name;
+                                break;
+                       	case 'country':
+                                storableLocation.country = component.long_name;
+                                storableLocation.registered_country_iso_code = component.short_name;
+                                break;
+              	}
+     	};
+	var locationString = storableLocation.city + ", " + storableLocation.state + ", " + storableLocation.country;
+        infowindow.setContent(locationString);
         infowindow.open(map, marker);
-	x.innerHTML = "  " + results[1].formatted_address + "  ";
+	x.innerHTML = "  " + locationString + "  ";
 	writeStoryLink.innerHTML = "Write a Story";
 	//writeStoryLink.setAttribute('onclick','location.href='+ '\''+ document.URL +'new-post?address='+ '\"' + encodeURIComponent(results[1].formatted_address) + '\"' + '\'');
-	writeStoryLink.setAttribute('onclick', 'submitAddressForm('+ '\"' + results[1].formatted_address + '\"' +')');
+	writeStoryLink.setAttribute('onclick', 'submitAddressForm('+ '\"' + locationString + '\"' +')');
 	} else {
         alert('No results found');
       }
